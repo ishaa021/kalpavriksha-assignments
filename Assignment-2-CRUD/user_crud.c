@@ -160,7 +160,6 @@ remove("users.txt");
 rename("temp.txt","users.txt");
 }
 
-
 int main()
 {
      FILE *fptr;
