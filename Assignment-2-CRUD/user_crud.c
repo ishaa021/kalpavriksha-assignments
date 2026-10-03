@@ -13,8 +13,7 @@ int idExists(int id)
     FILE *fptr;
     struct user u1;
     int exists = 0;
-
-    fptr = fopen("users.txt", "r");
+     fptr = fopen("users.txt", "r");
 
     while (fscanf(fptr, "%d %s %d", &u1.id, u1.name, &u1.age) == 3)
     {
@@ -160,7 +159,6 @@ else
 remove("users.txt");
 rename("temp.txt","users.txt");
 }
-
 
 
 int main()
