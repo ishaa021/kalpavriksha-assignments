@@ -56,6 +56,21 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 3 – Student Performance Analyzer
+
+A C program that analyzes the performance of multiple students using structures, functions, loops and recursion.
+
+The program:
+
+- Stores student roll number, name and marks in three subjects
+- Calculates total marks
+- Calculates average marks
+- Assigns grades based on average marks
+- Displays performance using star patterns
+- Uses `continue` for students with failing grades
+- Uses functions for calculations and grade determination
+- Uses recursion to display student roll numbers
+
 ## How to Compile and Run
 
 ```bash
