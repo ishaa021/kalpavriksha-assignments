@@ -89,6 +89,11 @@ int main()
 {
     int n;
     scanf("%d", &n);
+    if (n < 1 || n > 100)
+    {
+        printf("Invalid number of students.\n");
+        return 1;
+    }
     struct student s[n];
     for (int i = 0 ; i < n ; i++)
     {
@@ -97,6 +102,11 @@ int main()
         for (int j = 0 ; j < 3 ; j++)
         {
         scanf("%d", &s[i].marks[j]);
+         if (s[i].marks[j] < 0 || s[i].marks[j] > 100)
+            {
+                printf("Invalid marks. Marks must be between 0 and 100.\n");
+                return 1;
+            }
         }
     }
 
