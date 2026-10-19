@@ -25,7 +25,6 @@ int main()
     char ticketCategoryName[100];
 
     scanf("%99s", customerName);
-
     scanf("%d", &tickets);
 
     validTicketCount = isValidTicketCount(tickets);
@@ -33,9 +32,7 @@ int main()
     while (!validTicketCount)
     {
         printf("Error: Number of tickets must be between 1 and 20. \n");
-
         printf("Please enter the number of tickets again: ");
-
         scanf("%d", &tickets);
 
         validTicketCount = isValidTicketCount(tickets);
@@ -48,9 +45,7 @@ int main()
     while (!validTicketCategory)
     {
         printf("Error: Invalid ticket category.\n");
-
-        printf("Please enter a category (1-Standard, 2-Premium, 3-Recliner): ");
-        
+        printf("Please enter a category (1-Standard, 2-Premium, 3-Recliner): ");     
         scanf("%d", &ticketCategory);
 
         validTicketCategory = isValidTicketCategory(ticketCategory);
@@ -61,7 +56,6 @@ int main()
     if (ticketPrice == 0)
     {
         printf("Error: Invalid ticket category.\n");
-
         return 1;
     }
 
@@ -121,14 +115,9 @@ int getTicketPrice(int category, char categoryName[])
 void displayTicketDetails(char customerName[], char ticketCategoryName[], int tickets, float subtotal, float discount, float finalBill)
 {
     printf("Customer: %s\n", customerName);
-
     printf("Ticket Category: %s\n", ticketCategoryName);
-
     printf("Tickets: %d\n", tickets);
-
     printf("Subtotal: %.2f\n", subtotal);
-
-    printf("Discount: %.2f\n", discount);
-    
+    printf("Discount: %.2f\n", discount);    
     printf("Final Bill: %.2f\n", finalBill);
 }
