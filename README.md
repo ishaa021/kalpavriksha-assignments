@@ -56,6 +56,22 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 4 – Movie Ticket Booking System
+
+A console-based movie ticket booking system written in C.
+
+The program allows customers to select a ticket category and specify the number of tickets they want to book.
+
+Features include:
+
+- Three ticket categories: Standard, Premium and Recliner
+- Different prices for each ticket category
+- Ticket quantity validation (1–20 tickets)
+- Ticket category validation
+- A 10% discount for bookings of five or more tickets
+- Calculation of subtotal, discount and final bill
+- Formatted bill output with two decimal places
+
 ## How to Compile and Run
 
 ```bash
