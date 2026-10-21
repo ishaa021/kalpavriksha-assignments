@@ -56,6 +56,21 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 5 – Employee Hierarchy Management System
+
+A console-based employee management program written in C that maintains an organization’s employee hierarchy using structures, functions, pointers and recursion.
+
+The program supports:
+
+- Adding employees with unique employee IDs
+- Assigning reporting managers
+- Maintaining a list of employees reporting directly to each manager
+- Removing employees and transferring their reporting employees appropriately
+- Displaying the hierarchy of a selected employee
+- Displaying the complete organization hierarchy
+- Counting employees under a selected employee and across the organization
+- Validating employee and reporting manager IDs
+
 ## How to Compile and Run
 
 ```bash
