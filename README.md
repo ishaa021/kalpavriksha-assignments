@@ -56,6 +56,18 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+Assignment 6 – Sonar Image Processing
+
+A C program that simulates sonar image processing using a dynamically allocated matrix.
+
+Features include:
+
+- Generation of a random N × N matrix with intensity values from 0 to 255
+- 90° clockwise matrix rotation using pointer operations
+- In-place 3 × 3 smoothing filter
+- Pointer arithmetic and dynamic memory allocation
+- Memory management using malloc() and free()
+
 ## How to Compile and Run
 
 ```bash
