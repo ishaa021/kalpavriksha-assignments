@@ -56,6 +56,33 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 8 – Virtual File System (VFS)
+
+An in-memory Virtual File System implemented in C to simulate basic file and directory management.
+
+The system uses circular and doubly linked lists to manage directory structures and disk block allocation.
+
+Features:
+
+- Create files and directories.
+- Write and read file contents.
+- Delete files and remove empty directories.
+- Navigate directories using cd.
+- Display directory contents using ls.
+- Display the current working directory using pwd.
+- Monitor disk usage using df.
+- Manage file storage using a virtual disk.
+
+Concepts Used:
+
+- Structures and pointers
+- Dynamic memory allocation
+- Circular linked lists for directory management
+- Doubly linked lists for free block management
+- Two-dimensional arrays for virtual disk storage
+- File and directory management
+- Memory allocation and deallocation
+
 ## How to Compile and Run
 
 ```bash
