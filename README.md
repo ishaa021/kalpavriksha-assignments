@@ -56,6 +56,26 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 7 – Smart Memory Manager
+
+A menu-driven memory management simulation implemented in C using dynamic memory allocation.
+
+The program manages a dynamically allocated memory pool and maintains a separate metadata array to track memory blocks.
+
+Features:
+
+- Dynamic memory pool creation using malloc().
+- Dynamic metadata management using malloc() and realloc().
+- Memory allocation using First Fit, Best Fit and Worst Fit strategies.
+- Splitting free blocks during allocation.
+- Releasing allocated memory using unique allocation IDs.
+- Merging adjacent free blocks to reduce fragmentation.
+- Resizing existing allocations using shrink, expand and move operations.
+- Preserving existing data during resizing using memmove().
+- Detecting external fragmentation.
+- Displaying memory maps and memory statistics.
+- Tracking allocated memory, free memory and the largest available free block.
+
 ## How to Compile and Run
 
 ```bash
