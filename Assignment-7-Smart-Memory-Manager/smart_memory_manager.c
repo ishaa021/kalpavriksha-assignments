@@ -302,7 +302,6 @@ void releaseMemory(struct Block *blocks, int *blockCount)
             blocks[i].id = -1;
 
             mergeBlocks(blocks, blockCount);
-
             found = 1;
 
             printf("Memory released successfully.\n");
