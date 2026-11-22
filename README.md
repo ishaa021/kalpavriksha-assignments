@@ -56,6 +56,34 @@ Each user has a unique ID, name and age. The program supports:
 
 User records are stored in a text file named `users.txt`.
 
+### Assignment 9 – ICC ODI Player Performance Analyzer
+
+A menu-driven C program to manage and analyze ODI cricket player performances across 10 international teams.
+
+Features
+- Add players to teams with Player ID validation.
+- Display all players of a selected team.
+- Display teams by average batting strike rate.
+- Display Top K players by role and Performance Index.
+- Display players of a specific role across all teams in descending order of Performance Index.
+
+Concepts Used
+
+- Structures and Pointers
+- Singly Linked Lists
+- Dynamic Memory Allocation
+- Sorting and Searching
+- Pairwise Merging of Sorted Linked Lists
+
+Performance Index
+
+- Batsman: (Batting Average × Strike Rate) / 100
+- Bowler: (Wickets × 2) + (100 - Economy Rate)
+- All-rounder: ((Batting Average × Strike Rate) / 100) + (Wickets × 2)
+
+Dataset
+Players_data.h contains 200 predefined players across 10 teams.
+
 ## How to Compile and Run
 
 ```bash
